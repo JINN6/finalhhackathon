@@ -8,9 +8,7 @@ import { ShoppingCart } from 'lucide-react';
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
+ 
   SheetTrigger,
 } from "@/app/components/ui/sheet"
 import { AlignJustify } from 'lucide-react';
