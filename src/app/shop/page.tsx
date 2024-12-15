@@ -5,6 +5,7 @@ import Card from '../components/Cardd';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const page = () => {
   return (
@@ -13,7 +14,7 @@ const page = () => {
       
       {/* Banner Image */}
       <div>
-        <img src="/shopb.png" alt="Shop Banner" className="w-full h-auto" />
+        <Image src="/shopb.png" alt="Shop Banner" className="w-full h-auto" />
       </div>
 
       {/* Filter Section */}

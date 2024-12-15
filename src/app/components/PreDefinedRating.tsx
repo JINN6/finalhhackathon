@@ -1,5 +1,5 @@
 import React from "react";
-// @ts-ignore
+// @ts-expect-error
 import ReactStars from "react-rating-stars-component";
 
 const PredefinedRating: React.FC = () => {

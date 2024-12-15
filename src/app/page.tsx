@@ -3,6 +3,7 @@ import Navbarr from '@/app/components/Navbarr';
 import { Clock } from 'lucide-react';
 import { Calendar } from 'lucide-react';
 import Footer from './components/Footer';
+import Image from 'next/image';
 
 const Page = () => {
   return (
@@ -25,7 +26,7 @@ const Page = () => {
         </div>
 
         {/* Image Section */}
-        <img
+        <Image
           src="/rk.png"
           alt="Rocket Single Seater"
           className="h-[300px] md:h-[600px] w-full md:w-[700px] object-cover mt-6 md:mt-0"
@@ -36,7 +37,7 @@ const Page = () => {
       <div className="w-full h-auto bg-[#FAF4F4] flex flex-col md:flex-row justify-center gap-4 p-4">
         {['/s1.png', '/s2.png'].map((src, index) => (
           <div key={index} className="flex flex-col items-center">
-            <img
+            <Image
               src={src}
               alt={`Side Table ${index + 1}`}
               className="h-[250px] sm:h-[300px] md:h-[500px] object-contain"
@@ -103,7 +104,7 @@ const Page = () => {
         <div className="flex flex-wrap justify-center gap-8 pt-10">
           {[1, 2, 3].map((blog) => (
             <div key={blog} className="flex flex-col items-center max-w-[300px]">
-              <img
+              <Image
                 src={`/r${blog + 2}.png`}
                 alt={`Blog ${blog}`}
                 className="w-full h-[250px] md:h-[300px] object-cover"
@@ -124,7 +125,7 @@ const Page = () => {
 
       {/* Instagram Section */}
       <section>
-        <img src="/ins.png" alt="Instagram Section" className="w-full" />
+        <Image src="/ins.png" alt="Instagram Section" className="w-full" />
       </section>
 
       {/* Footer */}
