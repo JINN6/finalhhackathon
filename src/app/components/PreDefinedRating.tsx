@@ -1,5 +1,5 @@
 import React from "react";
-// @ts-expect-error
+// @ts-expect-error: Importing 'react-rating-stars-component' despite potential TypeScript errors
 import ReactStars from "react-rating-stars-component";
 
 const PredefinedRating: React.FC = () => {
