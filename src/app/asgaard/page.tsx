@@ -7,7 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import Footer from "../components/Footer";
-import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetFooter } from '@/components/ui/sheet';
+import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetFooter } from '@/app/components/ui/sheet';
 import { CiLock } from "react-icons/ci";
 import { MdCancel } from "react-icons/md";
 import Link from "next/link";

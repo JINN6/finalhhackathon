@@ -12,7 +12,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet"
+} from "@/app/components/ui/sheet"
 import { AlignJustify } from 'lucide-react';
 
 const Navbar = () => {

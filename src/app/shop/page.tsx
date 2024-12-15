@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import { SlidersHorizontal, LayoutGrid, GalleryVertical } from 'lucide-react';
-import Card from '../components/cardcomp';
+import Card from '../components/Cardd';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import Link from 'next/link';
