@@ -5,14 +5,14 @@ import { Phone } from 'lucide-react';
 import { Clock } from 'lucide-react';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
-import Image from 'next/image';
+
 
 const page = () => {
   return (
     <div>
       <Navbar />
       <div>
-        <Image src="/cont.png" alt="" className="w-full mt-0" />
+        <img src="/cont.png" alt="" className="w-full mt-0" />
       </div>
 
       <div>

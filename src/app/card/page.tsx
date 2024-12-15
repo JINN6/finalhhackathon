@@ -4,14 +4,14 @@ import Banner from '../components/Banner';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Link from 'next/link';
-import Image from 'next/image';
+
 
 const Page = () => {
   return (
     <div>
       <Navbar />
       <div>
-        <Image src="/cartbanner.png" alt="" className="w-full mt-0" />
+        <img src="/cartbanner.png" alt="" className="w-full mt-0" />
       </div>
 
       <div className="flex flex-wrap lg:flex-nowrap justify-between items-start p-5 mt-9 mb-9 gap-5">
@@ -24,7 +24,7 @@ const Page = () => {
             <li>Subtotal</li>
           </ul>
           <div className="mt-8 flex flex-wrap lg:flex-nowrap justify-between items-center bg-white shadow-md w-full h-auto p-4 gap-4">
-            <Image src="/ch.png" alt="" className="w-[80px] h-[80px]" />
+            <img src="/ch.png" alt="" className="w-[80px] h-[80px]" />
             <h1 className="text-[#9F9F9F] text-sm md:text-base flex-1">Asgaard sofa</h1>
             <h1 className="text-[#9F9F9F] text-sm md:text-base flex-1">Rs 250,000.00</h1>
             <div className="border border-[#9F9F9F] w-[40px] h-[40px] flex items-center justify-center text-sm md:text-base">

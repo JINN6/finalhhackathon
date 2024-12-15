@@ -2,14 +2,14 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
-import Image from 'next/image';
+
 
 const Account = () => {
   return (
     <div>
       <Navbar />
       <div>
-        <Image src="/account.png" alt="Account" className="mt-0 w-full" />
+        <img src="/account.png" alt="Account" className="mt-0 w-full" />
       </div>
 
       <div className="w-full h-auto flex flex-wrap items-center justify-center space-y-6 lg:space-y-0 lg:flex-nowrap">

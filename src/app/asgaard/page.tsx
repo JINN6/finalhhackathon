@@ -11,7 +11,7 @@ import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetFooter } from '@/a
 import { CiLock } from "react-icons/ci";
 import { MdCancel } from "react-icons/md";
 import Link from "next/link";
-import Image from "next/image";
+
 
 const page = () => {
   return (
@@ -26,14 +26,14 @@ const page = () => {
 
       <div className="flex flex-wrap justify-center md:justify-start gap-4 md:gap-[30px] px-4 sm:px-8 md:ml-[130px] mt-[60px]">
       <div className=" flex  justify-center md:flex-col lg:flex-col gap-4 md:gap-[25px] h-auto md:h-[500px]">
-  <Image src="/a1.png" alt="" className="w-full h-auto object-contain" />
-  <Image src="/a2.png" alt="" className="w-full h-auto object-contain" />
-  <Image src="/a3.png" alt="" className="w-full h-auto object-contain" />
-  <Image src="/a4.png" alt="" className="w-full h-auto object-contain" />
+  <img src="/a1.png" alt="" className="w-full h-auto object-contain" />
+  <img src="/a2.png" alt="" className="w-full h-auto object-contain" />
+  <img src="/a3.png" alt="" className="w-full h-auto object-contain" />
+  <img src="/a4.png" alt="" className="w-full h-auto object-contain" />
 </div>
 
         <div className=" bg-[#FFF9E5] w-full md:w-[423px] h-auto md:h-[500px] flex justify-center items-center">
-          <Image src="/a5.png" alt="" className="w-full h-auto object-contain" />
+          <img src="/a5.png" alt="" className="w-full h-auto object-contain" />
         </div>
         <div>
           <h1 className="font-bold text-[30px] md:text-[50px]">Asgaard sofa</h1>
@@ -86,7 +86,7 @@ const page = () => {
     </SheetHeader>
 
     <div className="flex justify-start items-center mt-[30px]">
-      <Image src="cimg1.png" alt="" />
+      <img src="cimg1.png" alt="" />
       <div className="pl-[20px] pr-[20px]">
         <h1>Asgaard sofa</h1>
         <h1>1 <span className="pl-[10px] pr-[10px]">X</span><span className="text-[#B88E2F]">Rs. 250,000.00</span> </h1>
@@ -174,8 +174,8 @@ const page = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row sm:justify-between items-center gap-2 px-4 sm:px-8 mt-[50px] lg:flex-row lg:gap-4">
-  <Image src="/asimg1.png" alt="" className="w-full md:w-auto" />
-  <Image src="/asimg2.png" alt="" className="w-full md:w-auto" />
+  <img src="/asimg1.png" alt="" className="w-full md:w-auto" />
+  <img src="/asimg2.png" alt="" className="w-full md:w-auto" />
 </div>
 
 
@@ -191,22 +191,22 @@ const page = () => {
 
         <div className="flex flex-wrap justify-evenly gap-4 md:gap-8 pt-[60px]">
           <div className="text-center">
-            <Image src="/m1.png" alt="" className="w-full h-auto object-contain" />
+            <img src="/m1.png" alt="" className="w-full h-auto object-contain" />
             <p className="pt-[10px]">Trenton modular sofa_3</p>
             <button className="font-bold text-lg md:text-[22px] pt-[10px]">Rs. 25,000.00</button>
           </div>
           <div className="text-center">
-            <Image src="/m2.png" alt="" className="w-full h-auto object-contain" />
+            <img src="/m2.png" alt="" className="w-full h-auto object-contain" />
             <p className="pt-[10px]">Granite dining table with <br /> dining chair</p>
             <button className="font-bold text-lg md:text-[22px] pt-[10px]">Rs. 25,000.00</button>
           </div>
           <div className="text-center">
-            <Image src="/m3.png" alt="" className="w-full h-auto object-contain" />
+            <img src="/m3.png" alt="" className="w-full h-auto object-contain" />
             <p className="pt-[10px]">Outdoor bar table and <br /> stool</p>
             <button className="font-bold text-lg md:text-[22px] pt-[10px]">Rs. 25,000.00</button>
           </div>
           <div className="text-center">
-            <Image src="/m4.png" alt="" className="w-full h-auto object-contain" />
+            <img src="/m4.png" alt="" className="w-full h-auto object-contain" />
             <p className="pt-[10px]">Plain console with teak <br /> mirror</p>
             <button className="font-bold text-lg md:text-[22px] pt-[10px]">Rs. 25,000.00</button>
           </div>
